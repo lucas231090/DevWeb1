@@ -1,0 +1,35 @@
+body {
+  font-size: 26px;
+  background: #f1f1f1;
+  font-family: Roboto, sans-serif;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1976d2; /* Cor de fundo */
+  height: 60px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Sombra */
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.menu li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.4s ease;
+}
+
+.menu li a:hover {
+  color: #ffd700; /* Mudar cor ao passar o mouse */
+}
